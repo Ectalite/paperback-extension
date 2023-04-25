@@ -10,14 +10,14 @@ import {
     MangaBox
 } from '../MangaBox'
 
-const SITE_DOMAIN = 'https://manganato.com'
+const SITE_DOMAIN = 'https://scantrad-vf.co'
 
-export const ManganatoInfo: SourceInfo = {
+export const ScatradInfo: SourceInfo = {
     version: getExportVersion('0.0.3'),
-    name: 'Manganato',
+    name: 'Scantrad-VF',
     icon: 'icon.png',
-    author: 'Batmeow',
-    authorWebsite: 'https://github.com/Batmeow',
+    author: 'Ectalite',
+    authorWebsite: 'https://github.com/Ectalite',
     description: `Extension that pulls manga from ${SITE_DOMAIN}.`,
     contentRating: ContentRating.MATURE,
     websiteBaseURL: SITE_DOMAIN,
@@ -30,19 +30,19 @@ export const ManganatoInfo: SourceInfo = {
     intents: SourceIntents.SETTINGS_UI | SourceIntents.HOMEPAGE_SECTIONS | SourceIntents.MANGA_CHAPTERS
 }
 
-export class Manganato extends MangaBox {
+export class Scantrad extends MangaBox {
     // Website base URL.
     baseURL = SITE_DOMAIN
 
     // Language code supported by the source.
-    languageCode = '🇬🇧'
+    languageCode = 'fr'
 
     // Path for manga list.
-    mangaListPath = 'genre-all'
+    mangaListPath = 'manga'
 
     // Selector for manga in manga list.
-    mangaListSelector = 'div.panel-content-genres div.content-genres-item'
+    mangaListSelector = 'div.panel-list-story div.list-story-item'
 
     // Selector for subtitle in manga list.
-    mangaSubtitleSelector = 'a.genres-item-chap.text-nowrap'
+    mangaSubtitleSelector = 'div.item-right > a.item-chapter'
 }
