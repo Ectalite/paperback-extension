@@ -8,6 +8,6 @@ Join the [Discord](https://discord.gg/rmf6jQpMU9) for more sources!
 
 | Source Type | Description |          Link |
 | ---        |    ----   |         --- |
-| French-Scans     | French Mangas Source      | [Click me!](https://ectalite.github.io/paperback-extension/french-scans)    |
+| French-Scans     | French Mangas Source      | [Click me!](https://ectalite.github.io/paperback-extension/French-Scans)    |
 
 
