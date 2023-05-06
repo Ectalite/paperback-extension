@@ -33,7 +33,6 @@ export const ScatradInfo: SourceInfo = {
 export class Scantrad extends MangaBox {
     // Website base URL.
     baseURL = SITE_DOMAIN
-    
 
     // Language code supported by the source.
     languageCode = 'fr'
